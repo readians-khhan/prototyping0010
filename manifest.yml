@@ -2,7 +2,7 @@
 applications:
 
 - name: prototyping0010
-  memory: 512M
+  memory: 1024M
   timeout: 300
   random-route: true
   path: application/target/prototyping0010-application.war
@@ -13,7 +13,7 @@ applications:
     SET_LOGGING_LEVEL: '{ROOT: INFO, com.sap.cloud.sdk: INFO}'
     JBP_CONFIG_SAPJVM_MEMORY_SIZES: 'metaspace:128m..'
   services:
-  - dest-cpi
+    - dest-cpi
 #  - my-xsuaa
 #  - my-destination
 #  - my-connectivity

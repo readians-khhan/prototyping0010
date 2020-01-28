@@ -28,7 +28,7 @@ public class BusinessPartnerServlet extends HttpServlet {
     private static final Logger logger = LoggerFactory.getLogger(BusinessPartnerServlet.class);
 
     private static final String CATEGORY_PERSON = "1";
-    private final ErpHttpDestination destination = DestinationAccessor.getDestination("DEST_SCI").asHttp().decorate(DefaultErpHttpDestination::new);
+    private final ErpHttpDestination destination = DestinationAccessor.getDestination("MyErpSystem").asHttp().decorate(DefaultErpHttpDestination::new);
 
     @Override
     protected void doGet(final HttpServletRequest request, final HttpServletResponse response)
