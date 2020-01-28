@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="prototyping0010-integration-tests" />
+        <module name="prototyping0010-application" />
+        <module name="prototyping0010-unit-tests" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="prototyping0010" target="1.8" />
+      <module name="prototyping0010-application" target="1.8" />
+      <module name="prototyping0010-integration-tests" target="1.8" />
+      <module name="prototyping0010-unit-tests" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

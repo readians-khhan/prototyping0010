@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/prototyping0010.iml" filepath="$PROJECT_DIR$/prototyping0010.iml" />
+      <module fileurl="file://$PROJECT_DIR$/application/prototyping0010-application.iml" filepath="$PROJECT_DIR$/application/prototyping0010-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integration-tests/prototyping0010-integration-tests.iml" filepath="$PROJECT_DIR$/integration-tests/prototyping0010-integration-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit-tests/prototyping0010-unit-tests.iml" filepath="$PROJECT_DIR$/unit-tests/prototyping0010-unit-tests.iml" />
+    </modules>
+  </component>
+</project>
