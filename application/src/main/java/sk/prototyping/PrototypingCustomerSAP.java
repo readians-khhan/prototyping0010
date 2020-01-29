@@ -25,7 +25,7 @@ public class PrototypingCustomerSAP extends HttpServlet {
     private static final Logger logger = LoggerFactory.getLogger(PrototypingCustomerSAP.class);
 
     private static final String CATEGORY_PERSON = "1";
-    private final DefaultHttpDestination destination = DestinationAccessor.getDestination("MyErpSystem").asHttp().decorate(DefaultHttpDestination::new);
+    private final DefaultHttpDestination destination = DestinationAccessor.getDestination("DEST_SCI").asHttp().decorate(DefaultHttpDestination::new);
 
     @Override
     protected void doGet(final HttpServletRequest request, final HttpServletResponse response)
@@ -35,12 +35,10 @@ public class PrototypingCustomerSAP extends HttpServlet {
             // Get Client from Destination Service
             final HttpClient httpClient = new DefaultHttpClientFactory().createHttpClient(destination);
             // Create Http Get
-            final HttpGet httpGet = new HttpGet("/sap/opu/odata/sap/API_BUSINESS_PARTNER");
-            // Call Http
-            final HttpResponse oDataResponse = httpClient.execute(httpGet);
-            // Work with Response
-            final HttpEntity entity = oDataResponse.getEntity();
-            final String responseString = EntityUtils.toString(entity);
+            String sciPath = "/http/skcmcns/Customer";
+
+            // Response
+            String responseString = "Customer-SAP";
             response.getWriter().write(responseString);
         } catch (Exception e) {
             logger.error(e.getMessage(), e);
