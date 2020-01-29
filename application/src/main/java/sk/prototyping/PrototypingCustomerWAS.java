@@ -18,11 +18,11 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/httppostexample")
-public class HttpPostExample extends HttpServlet {
+@WebServlet("/prototypingcustomerwas")
+public class PrototypingCustomerWAS extends HttpServlet {
 
     private static final long serialVersionUID = 1L;
-    private static final Logger logger = LoggerFactory.getLogger(HttpPostExample.class);
+    private static final Logger logger = LoggerFactory.getLogger(PrototypingCustomerWAS.class);
 
     private static final String CATEGORY_PERSON = "1";
     private final DefaultHttpDestination destination = DestinationAccessor.getDestination("MyErpSystem").asHttp().decorate(DefaultHttpDestination::new);
