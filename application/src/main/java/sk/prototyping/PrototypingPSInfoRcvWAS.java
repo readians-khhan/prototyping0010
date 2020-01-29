@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/PrototypingPSInfoRcvWAS")
+@WebServlet("/prototypingpsinforcvwas")
 public class PrototypingPSInfoRcvWAS extends HttpServlet {
 
     @Override
