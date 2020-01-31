@@ -1,4 +1,8 @@
+sk\prototyping\PrototypingPSInfoRcvSAP.class
+sk\prototyping\PrototypingPSInfoRcvWAS.class
+sk\prototyping\PrototypingCustomerWAS.class
 sk\prototyping\HelloWorldServlet.class
+sk\prototyping\PrototypingCustomerSAP.class
 sk\prototyping\HttpCallTest.class
 sk\prototyping\HttpGetExample.class
 sk\prototyping\BusinessPartnerServlet.class

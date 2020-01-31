@@ -14,6 +14,8 @@ applications:
     JBP_CONFIG_SAPJVM_MEMORY_SIZES: 'metaspace:128m..'
   services:
     - dest-cpi
+    - auth-app
+    - CPI-DEV-INST
 #  - my-xsuaa
 #  - my-destination
 #  - my-connectivity
